@@ -4,6 +4,9 @@ html {
 
 h2 {
   font-size: 1.5rem;
+}
+
+#contents, #favs, #facts, #types {
   color: #93a1a1;
 }
 
@@ -23,6 +26,41 @@ nav {
   background-color: #eee8d5;
 }
 
-.dfn {
-  color: #fff:
+h2 + div {
+   background-color: #b58900;
+ }
+
+p + strong {
+  color: #fff;
+}
+
+[href^="index.html"], [href^="history.html"], [href^="contact.html"], [href^="#favs"] {
+  background-color: #719e07;
+}
+
+[rel="external"] {
+  background-color: #2694d8
+}
+
+ol li:first-child {
+  color: #719e47
+}
+
+ol li:last-child {
+  color: #2aa198;
+}
+
+.types li:nth-child(odd) {
+  background-color: #657ba3;
+}
+
+.types li:nth-child(even) {
+  background-color: #586e75;
+}
+
+.types li:nth-child(3n) {
+  background-color: #d04b16;
+}
+#favs a {
+  background-color: #719e07;
 }
